@@ -11,7 +11,7 @@ public class Program01 {
 	 
 	 driver = new ChromeDriver();
 	 driver.get("https://demo.automationtesting.in/Register.html");	
-	 driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Testing");
+	 driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Test");
 	 driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Java");
 	 driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("Chennai");
 	 
